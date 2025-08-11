@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Explorer</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Movie Explorer</h1>
+    <input id="search-input" type="text" placeholder="Search movies...">
+  </header>
+
+  <main>
+    <section id="results">
+      <h2 id="results-heading">Popular Movies</h2>
+      <div id="results-content"></div>
+    </section>
+
+    <section id="favorites">
+      <h2>Favorites</h2>
+      <div id="favorites-content"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
